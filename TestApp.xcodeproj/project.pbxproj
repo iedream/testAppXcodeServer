@@ -79,6 +79,7 @@
 		2E718E461EB8F9D100A7A1CE = {
 			isa = PBXGroup;
 			children = (
+				2E718E861EB91E3900A7A1CE /* xcshareddata */,
 				2E718E511EB8F9D100A7A1CE /* TestApp */,
 				2E718E661EB8F9D100A7A1CE /* TestAppTests */,
 				2E718E711EB8F9D100A7A1CE /* TestAppUITests */,
@@ -99,7 +100,6 @@
 		2E718E511EB8F9D100A7A1CE /* TestApp */ = {
 			isa = PBXGroup;
 			children = (
-				2E718E801EB91DA100A7A1CE /* TestApp.xcsmblueprint */,
 				2E718E521EB8F9D100A7A1CE /* AppDelegate.swift */,
 				2E718E541EB8F9D100A7A1CE /* ViewController.swift */,
 				2E718E561EB8F9D100A7A1CE /* Main.storyboard */,
@@ -126,6 +126,14 @@
 				2E718E741EB8F9D100A7A1CE /* Info.plist */,
 			);
 			path = TestAppUITests;
+			sourceTree = "<group>";
+		};
+		2E718E861EB91E3900A7A1CE /* xcshareddata */ = {
+			isa = PBXGroup;
+			children = (
+				2E718E801EB91DA100A7A1CE /* TestApp.xcsmblueprint */,
+			);
+			name = xcshareddata;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
